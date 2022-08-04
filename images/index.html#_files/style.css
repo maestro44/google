@@ -1,0 +1,100 @@
+body{
+background-color: #202124;
+color: white;
+
+}
+
+nav{
+  background-color: #202124;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+.nav-link{
+  color:white;
+}
+
+.nav-item{
+  padding: 10px 10px;
+}
+
+.nav-text{
+ margin-top: 5px;
+ font-family: arial,sans-serif;
+ font-size: 14px;
+
+}
+
+.leftnav{
+  position: relative;
+
+}
+
+.rightnav{
+  position: absolute;
+  justify-content: flex-end;
+}
+
+.Googlegrid{
+  width: 25px;
+  padding-top: 3px;
+}
+
+.profilepic {
+  height: 32px;
+  width:32px;
+  border-radius: 50%;
+}
+
+.logoImage{
+  margin-top: 10%;
+  height: 95px;
+}
+
+.logoGoogle{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.buttoninfo{
+  background-color: #303134;
+border: 1px solid #303134;
+border-radius: 4px;
+color: #e8eaed;
+font-family: Roboto,arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+
+}
+
+.searchInput{
+  background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+
+.input-group{
+  /* border-radius: 100%; */
+}
